@@ -14,7 +14,7 @@ const Example = () => {
 
   return (
     <div>
-      <p>You clicked {count} times</p>
+      <h1>You clicked <div data-testid='result'>{count}</div> times</h1>
       <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
   )
